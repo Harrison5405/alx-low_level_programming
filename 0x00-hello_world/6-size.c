@@ -6,15 +6,12 @@
 #include <stdio.h>
 int main(void)
 {
-char a;
-int b;
-long int c;
-long long int d;
-float f;
-print("size of char: %lu bytes \n", (unsigned long)sizeof(a));
-print("size of int: %lu bytes \n", (unsigned long)sizeof(b));
-print("size of long int: %lu bytes \n", (unsigned long)sizeof(c));
-print("size of long long int: %lu bytes \n", (unsigned long)sizeof(d));
-print("size of float: %lu bytes \n", (unsigned long)sizeof(f));
-return (0);
+int integerType;
+char charType;
+float floatType;
+double doubleType;
+printf("Size of int is: %ld", sizeof(integerType));
+printf("\nSize of char is: %ld", sizeof(charType));
+printf("\nSize of float is: %ld", sizeof(floatType));
+return  (0);
 }
