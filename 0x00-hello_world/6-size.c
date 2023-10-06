@@ -5,13 +5,16 @@
  */
 #include <stdio.h>
 int main(void)
-{int integerType;
+{
+int integerType;
 char charType;
 float floatType;
-double doubleType;
-printf("Size of int is: %ld", sizeof(integerType));
-printf("\nSize of char is: %ld", sizeof(charType));
-printf("\nSize of float is: %ld", sizeof(floatType));
-printf("\nSize of double is: %ld", sizeof(doubleType));
-return 0;
+long int c;
+long long int d;
+print("size of char: %lu bytes \n", (unsigned long)sizeof(charrType));
+print("size of int: %lu bytes \n", (unsigned long)sizeof(intergerType));
+print("size of long int: %lu bytes \n", (unsigned long)sizeof(c));
+print("size of long long int: %lu bytes \n", (unsigned long)sizeof(d));
+print("size of float: %lu bytes \n", (unsigned long)sizeof(floatType));
+return (0);
 }
