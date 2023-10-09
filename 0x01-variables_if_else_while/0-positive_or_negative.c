@@ -7,19 +7,19 @@ int main(void)
 {
 int n;
 srand(time(0));
-n=rand() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 /* your code goes there */
-if(n > 0)
+if (n > 0)
 {
-printf( "%d, n is Positive", n);
+printf("%d, n is Positive", n);
 }
-else if(n == 0)
+else if (n == 0)
 {
-printf( "%d, n is Zeroe", n);
+printf("%d, n is negative", n);
 }
-else 
+else
 {
-printf( "%d, n is positive", n);
+printf("%d, n is positive", n);
 }
 return (0);
 }
