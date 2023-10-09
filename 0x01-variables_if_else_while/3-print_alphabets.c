@@ -6,23 +6,15 @@
 
 int main(void)
 {
-char c;
+int i;
 
-char d;
-
-c = 'a';
-d = 'A';
-while
-(c <= 'z')
+for (i = 0; i < 26; i++)
 {
-putchar(c);
-c++;
+putchar('a' + i);
 }
-while
-(d <= 'z')
+for (i = 0; i < 26; i++)
 {
-putchar(d);
-c++;
+putchar('A' + i);
 }
 putchar('\n');
 return (0);
